@@ -1,0 +1,23 @@
+{
+  "name": "lob",
+  "version": "1.0.0",
+  "description": "simple limit order book management solution in O(log n)",
+  "main": "test.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azidyn/lob.git"
+  },
+  "keywords": [],
+  "author": "Azimuth Dynamics Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azidyn/lob/issues"
+  },
+  "homepage": "https://github.com/azidyn/lob#readme",
+  "devDependencies": {
+    "ava": "^3.12.1"
+  }
+}
