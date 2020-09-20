@@ -23,11 +23,11 @@ b.bid( 900, 0 );
 // Add a new bid at 800
 b.bid( 800, 5 )
 
-// read the bid size at price 997
+// Read the bid at price 997
+// Data is returned in a 2d array [ price, size ]
+let bid = b.peek( 'bid', 997 )
 
-let size = b.peek( 'bid', 997 )
-
-console.log(`Bid size at 997 is ${size} `);
+console.log(`Bid size at ${bid[0]} is ${bid[1]} `);
 
 let snapshot = b.snapshot( 10 ); // max 10 levels
 
