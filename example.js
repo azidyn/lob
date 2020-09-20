@@ -23,6 +23,12 @@ b.bid( 900, 0 );
 // Add a new bid at 800
 b.bid( 800, 5 )
 
+// read the bid size at price 997
+
+let size = b.peek( 'bid', 997 )
+
+console.log(`Bid size at 997 is ${size} `);
+
 let snapshot = b.snapshot( 10 ); // max 10 levels
 
 // `snapshot.bid` => bids sorted by best bid first (price descending)
