@@ -129,7 +129,7 @@ class Bids {
 
         for ( let t=this.head; t>=0; t--) {
 
-            if ( this.ticks[t][1] > 0 ) book.push( this.ticks[t] );
+            if ( this.ticks[t][1] > 0 ) book.push([ this.ticks[t][0], this.ticks[t][1] ]);
             if ( book.length == levels ) break;
 
         }
